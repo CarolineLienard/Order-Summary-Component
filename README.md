@@ -28,7 +28,7 @@ Ideas to test ourself :
 
 ### Links
 
-- Solution URL: (https://carolinelienard.github.io/order-summary-component/)
+- Solution URL: (https://carolinelienard.github.io/Order-Summary-Component/)
 
 ## My process
 
