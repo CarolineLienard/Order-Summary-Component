@@ -1,3 +1,144 @@
+/** Colors **/
+/** Primary **/
+/** Neutral **/
+/** Active **/
+* {
+  font-family: "Red Hat display";
+}
 
+body {
+  background-image: url("/assets/images/pattern-background-desktop.svg");
+  background-color: hsl(225deg, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: auto 437px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 128vh;
+}
+
+.order-card {
+  background-color: white;
+  width: 450px;
+  height: 697px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.order-card__image {
+  width: 450px;
+  height: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+.order-card__title {
+  font-size: 28px;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+  height: 37px;
+  width: 354px;
+  margin: 45px 48px 17px 48px;
+}
+.order-card__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  line-height: 26px;
+  width: 354px;
+  height: 78px;
+  margin: 0px 48px 20px 48px;
+}
+.order-card__recap {
+  background-color: hsl(225deg, 100%, 98%);
+  width: 354px;
+  height: 98px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 48px 32px 48px;
+}
+.order-card__recap__img {
+  width: 48px;
+  height: 48px;
+  margin: 25px 20px 25px 24px;
+}
+.order-card__recap__summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 48px;
+  margin: 25px 94px 25px 0px;
+}
+.order-card__recap__summary-title {
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+  white-space: nowrap;
+}
+.order-card__recap__summary-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+}
+.order-card__recap__button {
+  border: none;
+  background: none;
+  color: hsl(245deg, 75%, 52%);
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.5px;
+  width: 59px;
+  height: 19px;
+  margin: 40px 24px 39px 0px;
+}
+.order-card__recap__button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(245deg, 83%, 68%);
+}
+.order-card__proceed {
+  background-color: hsl(245deg, 75%, 52%);
+  border: none;
+  width: 354px;
+  height: 50px;
+  color: white;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 15px 102px 15px 102px;
+  margin: 0px 48px 32px 48px;
+}
+.order-card__proceed:hover {
+  background-color: hsl(245deg, 83%, 68%);
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.order-card__proceed > span {
+  width: 150px;
+  height: 20px;
+  white-space: nowrap;
+}
+.order-card__cancel {
+  font-size: 15px;
+  font-weight: 900;
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+  width: 96px;
+  height: 20px;
+  margin: 0px 177px 48px 177px;
+}
+.order-card__cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+}
 
 /*# sourceMappingURL=style.css.map */
