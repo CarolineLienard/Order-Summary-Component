@@ -52,13 +52,11 @@ body {
 }
 .order-card__image {
   width: 450px;
-  height: 220px;
   border-radius: 20px 20px 0px 0px;
 }
 @media screen and (max-width: 920px) {
   .order-card__image {
     width: 327px;
-    height: 160px;
   }
 }
 .order-card__title {
@@ -83,13 +81,11 @@ body {
   color: hsl(224deg, 23%, 55%);
   line-height: 26px;
   width: 354px;
-  height: 78px;
   margin: 0px 48px 20px 48px;
 }
 @media screen and (max-width: 920px) {
   .order-card__subtitle {
     width: 263px;
-    height: 75px;
     line-height: 25px;
     font-size: 15px;
     margin: 0px 32px 24px 32px;
@@ -98,7 +94,6 @@ body {
 .order-card__recap {
   background-color: hsl(225deg, 100%, 98%);
   width: 354px;
-  height: 98px;
   border-radius: 11px;
   display: flex;
   justify-content: space-between;
@@ -108,7 +103,6 @@ body {
 @media screen and (max-width: 920px) {
   .order-card__recap {
     width: 279px;
-    height: 81px;
     margin: 0px 24px 24px 24px;
   }
 }
@@ -126,7 +120,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 92px;
   height: 48px;
   margin: 25px 94px 25px 0px;
@@ -212,7 +206,6 @@ body {
   color: hsl(224deg, 23%, 55%);
   text-decoration: none;
   width: 96px;
-  height: 20px;
   margin: 0px 177px 48px 177px;
 }
 .order-card__cancel:hover {

@@ -21,11 +21,9 @@
     }
     &__image {
         width: 450px;
-        height: 220px;
         border-radius: 20px 20px 0px 0px;
         @include mobile-only {
             width: 327px;
-            height: 160px;
         }
     }
     &__title {
@@ -48,11 +46,9 @@
         color: $color-desaturated;
         line-height: 26px;
         width: 354px;
-        height: 78px;
         margin: 0px 48px 20px 48px;
         @include mobile-only {
             width: 263px;
-            height: 75px;
             line-height: 25px;
             font-size: 15px;
             margin: 0px 32px 24px 32px;
@@ -61,7 +57,6 @@
     &__recap {
         background-color: $color-pale;
         width: 354px;
-        height: 98px;
         border-radius: 11px;
         display: flex;
         justify-content: space-between;
@@ -69,7 +64,6 @@
         margin: 0px 48px 32px 48px;
         @include mobile-only {
             width: 279px;
-            height: 81px;
             margin: 0px 24px 24px 24px;
         }
         &__img {
@@ -84,7 +78,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
             width: 92px;
             height: 48px;
             margin: 25px 94px 25px 0px;
@@ -165,7 +159,6 @@
         color: $color-desaturated;
         text-decoration: none;
         width: 96px;
-        height: 20px;
         margin: 0px 177px 48px 177px;
         &:hover {
             color: $color-dark;
