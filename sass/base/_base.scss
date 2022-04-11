@@ -6,6 +6,12 @@ body {
     background-image: url("/assets/images/pattern-background-desktop.svg");
     background-color: $color-primary;
     background-repeat: no-repeat;
-    background-size: auto 437px;
+    background-size: 100% 400px;
+    @include mobile-only {
+        background-image: url("/assets/images/pattern-background-mobile.svg");
+        background-size: 100% 350px;
+    }
+    @include small-mobile {
+        background-size: 100% 200px;
+    }
 }
-

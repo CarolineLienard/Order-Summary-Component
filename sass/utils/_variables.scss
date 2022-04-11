@@ -1,4 +1,4 @@
-/** Colors **/
+                                                        /** Colors **/
 
 /** Primary **/
 $color-primary: hsl(225, 100%, 94%);
@@ -11,3 +11,8 @@ $color-dark: hsl(223, 47%, 23%);
 
 /** Active **/
 $color-hover: hsla(245, 83%, 68%, 1);
+
+
+                                                        /** Break points**/
+$breakpoints : (mobile : 920px, small-mobile : 380px);
+                                                    
