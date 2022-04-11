@@ -2,10 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 128vh;
-    @include mobile-only {
-        min-height: 100vh;
-    }
+    min-height: 100vh;
 }
 
 .order-card {

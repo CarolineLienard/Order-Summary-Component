@@ -30,12 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 128vh;
-}
-@media screen and (max-width: 920px) {
-  .card-container {
-    min-height: 100vh;
-  }
+  min-height: 100vh;
 }
 
 .order-card {
